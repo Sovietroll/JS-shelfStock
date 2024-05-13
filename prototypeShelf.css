@@ -17,7 +17,7 @@
         /* background-color: rgb(253, 101, 101, 0.5); */
       }
       .currentDate-NotExpired{
-        color: rgb(75, 75, 243);
+        color: rgb(18, 148, 29);
       }
       .list {
         background-color: rgb(245, 245, 245);
@@ -503,72 +503,123 @@
         background-size:cover;
         background-position:center;
       }
+      .pic-A2{
+        position: relative;
+        background-image: url(Pictures/cafe.png);
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-position:center;
+      }
 
       .pic-B1 {
-        background-image: url(Pictures/herbalBlend.png);
+        /* background-image: url(Pictures/cafe.png); */
         background-repeat: no-repeat;
         background-size:contain;
         background-position:center;
       }
       .pic-B2 {
-        background-image: url(Pictures/OMEGA.png);
-        background-repeat: no-repeat;
-        background-size:contain;
-        background-position:center;
-        margin: 1%;
-      }
-      .pic-d1 {
-        background-image: url(Pictures/vitalize.jpg);
-        background-repeat: no-repeat;
-        background-size:contain;
-        background-position:center;
-        margin: 1%;
-      }
-      .pic-d2{
-        background-image: url(Pictures/vita-c.jpg);
+        background-image: url(Pictures/coqtrol.png);
         background-repeat: no-repeat;
         background-size:contain;
         background-position:center;
         margin: 1%;
       }
       .pic-C1{
-        background-image: url(Pictures/esp.png);
+        background-image: url(Pictures/oste.png);
         background-repeat: no-repeat;
         background-size:contain;
         background-position:center;
         margin: 1%;
       } 
       .pic-C2{
-        background-image: url(Pictures/lecithin.png);
+        background-image: url(Pictures/vita-c.png);
+        background-repeat: no-repeat;
+        background-size:contain;
+        background-position:center;
+        margin: 1%;
+      }
+      .pic-d1 {
+        background-image: url(Pictures/alfafa\ s.png);
+        background-repeat: no-repeat;
+        background-size:contain;
+        background-position:center;
+        margin: 1%;
+      }
+      .pic-d2{
+        background-image: url(Pictures/vitE.png);
         background-repeat: no-repeat;
         background-size:contain;
         background-position:center;
         margin: 1%;
       }
       .pic-E1{
+        background-image: url(Pictures/lecithin.png);
+        background-repeat: no-repeat;
+        background-size:contain;
+        background-position:center;
+        margin: 1%;
+      } 
+      .pic-E2{
         background-image: url(Pictures/esp.png);
         background-repeat: no-repeat;
         background-size:contain;
         background-position:center;
         margin: 1%;
       } 
-      .pic-E2,
-      .pic-F1,
-      .pic-F2,
-      .pic-G1,
-      .pic-G2,
-      .pic-H1,
-      .pic-H2,
-      .pic-I1,
-      .pic-I2,
-      .pic-J1,
-      .pic-J2,
-      .pic-K1,
-      .pic-K2,
-      .pic-L1,
-      .pic-L2{
-        background-image: url(Pictures/lecithin.png);
+      .pic-F1{
+        background-image: url(Pictures/soft\ fabric.png);
         background-repeat: no-repeat;
-        background-size:cover;
+        background-size:contain;
         background-position:center;
-      }
+        margin: 1%;
+      } 
+      .pic-F2{
+        background-image: url(Pictures/lockdaycream.png);
+        background-repeat: no-repeat;
+        background-size:contain;
+        background-position:center;
+        margin: 1%;
+      } 
+      .pic-G1{
+        background-image: url(Pictures/eyetreatment.png);
+        background-repeat: no-repeat;
+        background-size:contain;
+        background-position:center;
+        margin: 1%;
+      } 
+      .pic-G2{
+        background-image: url(Pictures/nightcreamrich.png);
+        background-repeat: no-repeat;
+        background-size:contain;
+        background-position:center;
+        margin: 1%;
+      } 
+      .pic-H1{
+        background-image: url(Pictures/toner.png);
+        background-repeat: no-repeat;
+        background-size:contain;
+        background-position:center;
+        margin: 1%;
+      } 
+      .pic-H2{
+        background-image: url(Pictures/toner.png);
+        background-repeat: no-repeat;
+        background-size:contain;
+        background-position:center;
+        margin: 1%;
+      } 
+      .pic-I1{
+        background-image: url(Pictures/eyetreatment.png);
+        background-repeat: no-repeat;
+        background-size:contain;
+        background-position:center;
+        margin: 1%;
+      } 
+      .pic-I2{
+        background-image: url(Pictures/nightcreamrich.png);
+        background-repeat: no-repeat;
+        background-size:contain;
+        background-position:center;
+        margin: 1%;
+      } 
+      

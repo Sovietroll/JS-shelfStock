@@ -1,15 +1,14 @@
 // //DATE HERE//
 const date = new Date();
-date.toLocaleDateString('en-GB');
 
 let year = date.getFullYear();
 let month = String(date.getMonth()+1).padStart(2,"0");
 let day = String(date.getDate()).padStart(2,"0");
 
-let currentDate = `${day}-${month}-${year}`; //! for compare dates
-
-dateNow = document.querySelector('.currentDate');
+let currentDate = `${day}/${month}/${year}`;
+let dateNow = document.querySelector('.currentDate');
 dateNow.innerHTML = `Today is ${currentDate}`;
+
 
 
 // //TODO PUT DATE AS INPUT
@@ -32,7 +31,65 @@ dateNow.innerHTML = `Today is ${currentDate}`;
 //       }
     
 // })
+const quantityA1 = document.querySelector('.panelNumber-QuantityA1');
+const quantityA2 = document.querySelector('.panelNumber-QuantityA2');
 
+const nameA1 = document.querySelector('.js-one-A1');
+const nameA2 = document.querySelector('.js-one-A2');
+
+let expDateA1 = document.querySelector('.js-expDIVDateA1');
+let expDateA2 = document.querySelector('.js-expDIVDateA2');
+
+
+//* A1
+nameA1.innerHTML = 'Herbal Blend';
+quantityA1.innerHTML = 'x3';
+
+// expDateA1.innerHTML = '11/05/2024';
+let dateA1 = new Date(2025, 1, 10);
+let yearA1 = dateA1.getFullYear();
+let monthA1 = dateA1.getMonth();
+let dayA1 = dateA1.getDate();
+
+let nowDateA1 = `${dayA1}/${monthA1}/${yearA1}`;
+
+console.log(nowDateA1);
+console.log(dayA1);
+console.log(monthA1);
+console.log(`dateA1 ${dateA1}`);
+
+expDateA1.innerHTML = `${nowDateA1}`;
+//* A2
+nameA2.innerHTML = 'Cafe Latte';
+quantityA2.innerHTML = 'x1';
+
+// expDateA2.innerHTML = '31/12/2024';
+expDateA2 = new Date('December 31, 2024');
+
+console.log(nowDateA1);
+console.log(currentDate);
+//todo DO THIS
+if (nowDateA1 <= currentDate){
+    console.log('BIGGER');
+}
+else {
+    console.log('SMALLER');
+}
+const allEXP = [
+    expDateA1, expDateA2
+];
+
+
+// //TODO convert string to date
+// allEXP.forEach((exp) => {
+
+//     if(exp >= currentDate){
+//         console.log('expired');
+//     }
+//     else {
+//         console.log('not expired');
+//     }
+// })
 // // //TODO FILL THIS next //
 // // const savedOutput = JSON.parse(localStorage.getItem('itemName')) || [
 // //     {itemNameA1:'', quantityA1: '', EXPinputDateA1: ''}, //0
