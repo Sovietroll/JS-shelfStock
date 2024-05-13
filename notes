@@ -1,0 +1,58 @@
+//TODO CURRENT -->
+-Inputs for name and exp date - need to place a function where mouse click/finger anywhere to cancel
+
+-event.key === enter problem for input.name
+
+//!BUGS 
+PROB - G1 Panel problem!
+REMOVE - document.querySelector - notes 2 need to be removed (useless)
+
+NEXT -->
+<--
+
+FINISHED-->
+DONE BUGS expID - parameter saving to localStorage
+DONE - Create array of inputs for EXP
+DONE create local save
+DONE reate web browser from github
+DONE making input onclick and offclick
+DONE Try changing Objects to Array or Objects of Array [Replace the object with array and set one array of objects with one variable. getItem and ||]
+DONE Save innerHTML of item name and quantity for HTML. Item still there everytime refereshs
+DONE  Make localStorage for item list
+DONE Implement multiple selections in the shelf
+DONE Rearrange the whole js,css,html
+DONE creates object for data entry and data saving
+DONE place quantity in array 
+DONE remove button
+DONE Trying to implement object array data to list HTML
+DONE set REMOVE button for splice data from object array
+DONE create concept from AIllustrator
+DONE make HTML
+<--
+
+BUGS -->
+FIXED Doesnt saved itemName properly 
+(SOLUTION: Turns out browser problem. Needs to refresh the memory back and it will be okay)
+
+FIXED Remove button hightlight shelf.active too
+
+FIXED togglePanelNumber doesnt work perfectly/ 
+
+FIXED - togglePanelNumber double click to on and off (SOLUTION: if else if statement the condition need to have opposite boolean then it finally works)
+
+FIXED togglePanelNumber click other panel would turn off current panel
+
+FIXED Select/Deselect shelf B and shelf D influence both quantities
+
+FIXED - inputOne problem with innerHTML, load with previous input (SOLUTION: place inputOne.innerHTML = '' at addEventListener)
+
+FIXED - remove button doesnt work properly (SOLUTION: document.querySelectorAll for all 'remove' buttons)
+
+FIXED - Object Array not saving properly (SOLUTION: need to write .push() method properly)
+<--
+
+
+NOTES
+Switch-Case method
+-multiple conditions
+-more readable than if else statement

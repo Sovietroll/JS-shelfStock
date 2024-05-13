@@ -1,0 +1,987 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shelf project 5</title>
+
+    <script
+      src="https://kit.fontawesome.com/bea32186b1.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="prototypeShelf.css" />
+    <style></style>
+  </head>
+  <body>
+
+    <h3>SHELF STOCK CHECKING ver2.3 (mobile only)</h3>
+      <h4>updated 13/5/24
+        DEADLINE: 15/5/24
+      </h4>
+      <h4 class="currentDate"></h4>
+        <!-- <input type="date"
+               name="" 
+               id=""
+               placeholder="EXP"
+               style="
+               font-size: 10px;
+               background-color: rgb(255, 255, 255);
+               "> -->
+    <div class="list">
+      <div class="list-title">
+        List Item
+      </div>
+      <div class="list-content">
+        <li class="line-main">
+          <div class="output"></div>
+          <!-- <div class="output2"></div> -->
+        </li>
+      </div>
+    </div>
+    
+    <!-- Dont touch this yet -->
+    <div class="shelf">
+
+<!-----------------START  A section------------------------------------------------------------->
+<div class="shelf-1">
+  <!--1ST PANEL A1-->
+  <div class="shelf-A1">
+
+    <input type="text" class="css-input js-input-A1"/>
+
+    <div class="one js-one-A1">
+      <!--NAME -->
+    </div>
+
+    <!--JS-PANELNUMEBR-->
+    <div class="css-panelNumberA js-panelNumberA1">
+      <div class="css-panelNumber-buttons js-panelNumber-buttons">
+        <button class="button js-button-plus-A1">
+          <i class="fa-solid fa-plus" style="color: #000000;"></i>
+        </button>
+        <button class="button js-button-minus-A1">
+          <i class="fa-solid fa-minus" style="color: #000000;"></i>
+        </button>
+      </div>
+    </div>
+
+    <div class="panelNumber-Quantity panelNumber-QuantityA1">
+    </div>
+
+    <div class="css-expDIVDate js-expDIVDateA1"></div>
+      <input  type="date"
+              class="expInputA1 expInput"
+              placeholder="EXP"
+    <!-- !expInput -->
+    <!-- test date -->
+    <div class="pic-A1" style="position: relative">
+     
+      <div> <!--JS-ENTERPANELNUMEBR-->
+        <button  class="css-EnterPanelNumber js-EnterPanelNumberA1">
+          OK
+        </button>
+      </div>
+      <!--pic-->
+    </div>
+
+</div>
+  <!--1ST PANEL-->
+
+<!--------START  A2 section------------------------------------------------------------------>
+  <!--2ND PANEL A2-->
+  <div class="shelf-A2">
+
+    <input type="date" class="css-input js-input-A2"/>
+
+    <div class="one js-one-A2">
+      <!--NAME -->
+    </div>
+
+    <!--JS-PANELNUMEBR-->
+    <div class="css-panelNumberA js-panelNumberA2">
+      <div class="css-panelNumber-buttons js-panelNumber-buttons">
+        <button class="button js-button-plus-A2">
+          <i class="fa-solid fa-plus" style="color: #000000;"></i>
+        </button>
+        <button class="button js-button-minus-A2">
+          <i class="fa-solid fa-minus" style="color: #000000;"></i>
+        </button>
+      </div>
+    </div>
+
+    <div class="panelNumber-Quantity panelNumber-QuantityA2">
+    </div>
+
+    <div class="css-expDIVDate js-expDIVDateA2"></div>
+
+      <input  type="date"
+      class="expInputA2 expInput"
+      placeholder="EXP"
+
+         <!-- !expInput -->
+    <div class="pic-A2" style="position: relative">
+      <div> <!--JS-ENTERPANELNUMEBR-->
+        <button  class="css-EnterPanelNumber js-EnterPanelNumberA2">
+          OK
+        </button>
+      </div>
+      <!--pic-->
+    </div>
+
+</div>
+  <!--2ND PANEL-->
+<!-----END  A2 section------>
+</div>
+<!------------------END  A SECTION-------------------------------------------------------------->
+
+<!-----------------START  B section------------------------------------------------------------->
+      <div class="shelf-1">
+        <!--1ST PANEL B1-->
+        <div class="shelf-B1">
+
+          <input type="text" class="css-input js-input-B1"/>
+
+          <div class="one js-one-B1">
+            <!--NAME -->
+          </div>
+
+          <!--JS-PANELNUMEBR-->
+          <div class="css-panelNumberA js-panelNumberB1">
+            <div class="css-panelNumber-buttons js-panelNumber-buttons">
+              <button class="button js-button-plus-B1">+</button>
+              <button class="button js-button-minus-B1">-</button>
+            </div>
+          </div>
+
+          <div class="panelNumber-Quantity panelNumber-QuantityB1">
+          </div>
+
+          <div class="css-expDIVDate js-expDIVDateB1"></div>
+          <input type="date" class="expInputB1 expInput" placeholder="EXP">
+
+          <div class="pic-B1" style="position: relative">
+            <div> <!--JS-ENTERPANELNUMEBR-->
+              <button  class="css-EnterPanelNumber js-EnterPanelNumberB1">
+                OK
+              </button>
+            </div>
+            <!--pic-->
+          </div>
+
+      </div>
+        <!--1ST PANEL-->
+
+      <!--------START  B2 section------------------------------------------------------------------>
+        <!--2ND PANEL B2-->
+        <div class="shelf-B2">
+
+          <input type="text" class="css-input js-input-B2"/>
+
+          <div class="one js-one-B2">
+            <!--NAME -->
+          </div>
+
+          <!--JS-PANELNUMEBR-->
+          <div class="css-panelNumberA js-panelNumberB2">
+            <div class="css-panelNumber-buttons js-panelNumber-buttons">
+              <button class="button js-button-plus-B2">+</button>
+              <button class="button js-button-minus-B2">-</button>
+            </div>
+          </div>
+
+          <div class="panelNumber-Quantity panelNumber-QuantityB2">
+          </div>
+
+          <div class="css-expDIVDate js-expDIVDateB2"></div>
+          <input type="date" class="expInputB2 expInput" placeholder="EXP">
+
+          <div class="pic-B2" style="position: relative">
+            <div> <!--JS-ENTERPANELNUMEBR-->
+              <button  class="css-EnterPanelNumber js-EnterPanelNumberB2">
+                OK
+              </button>
+            </div>
+            <!--pic-->
+          </div>
+
+      </div>
+        <!--2ND PANEL-->
+      <!-----END  B2 section------>
+      </div>
+<!------------------END  B SECTION-------------------------------------------------------------->
+
+     
+<!-----------------START  C section------------------------------------------------------------->
+<div class="shelf-1">
+  <!--1ST PANEL C1-->
+  <div class="shelf-C1">
+
+    <input type="text" class="css-input js-input-C1"/>
+
+    <div class="one js-one-C1">
+      <!--NAME -->
+    </div>
+
+    <!--JS-PANELNUMEBR-->
+    <div class="css-panelNumberA js-panelNumberC1">
+      <div class="css-panelNumber-buttons js-panelNumber-buttons">
+        <button class="button js-button-plus-C1">+</button>
+        <button class="button js-button-minus-C1">-</button>
+      </div>
+    </div>
+
+    <div class="panelNumber-Quantity panelNumber-QuantityC1">
+    </div>
+
+    <div class="css-expDIVDate js-expDIVDateC1"></div>
+    <input type="date" class="expInputC1 expInput" placeholder="EXP">
+
+    <div class="pic-C1" style="position: relative">
+      <div> <!--JS-ENTERPANELNUMEBR-->
+        <button  class="css-EnterPanelNumber js-EnterPanelNumberC1">
+          OK
+        </button>
+      </div>
+      <!--pic-->
+    </div>
+
+</div>
+  <!--1ST PANEL-->
+
+<!--------START  C2 section------------------------------------------------------------------>
+  <!--2ND PANEL C2-->
+  <div class="shelf-C2">
+
+    <input type="text" class="css-input js-input-C2"/>
+
+    <div class="one js-one-C2">
+      <!--NAME -->
+    </div>
+
+    <!--JS-PANELNUMEBR-->
+    <div class="css-panelNumberA js-panelNumberC2">
+      <div class="css-panelNumber-buttons js-panelNumber-buttons">
+        <button class="button js-button-plus-C2">+</button>
+        <button class="button js-button-minus-C2">-</button>
+      </div>
+    </div>
+
+    <div class="panelNumber-Quantity panelNumber-QuantityC2">
+    </div>
+
+    <div class="css-expDIVDate js-expDIVDateC2"></div>
+    <input type="date" class="expInputC2 expInput" placeholder="EXP">
+
+    <div class="pic-C2" style="position: relative">
+      <div> <!--JS-ENTERPANELNUMEBR-->
+        <button  class="css-EnterPanelNumber js-EnterPanelNumberC2">
+          OK
+        </button>
+      </div>
+      <!--pic-->
+    </div>
+
+</div>
+  <!--2ND PANEL-->
+<!-----END  C2 section------>
+</div>
+<!------------------END  C SECTION-------------------------------------------------------------->
+
+
+<!-----------------START  D section------------------------------------------------------------->
+      <div class="shelf-1">
+        <!--1ST PANEL D1-->
+        <div class="shelf-D1">
+
+          <input type="text" class="css-input js-input-D1"/>
+
+          <div class="one js-one-D1">
+            <!--NAME -->
+          </div>
+
+          <!--JS-PANELNUMEBR-->
+          <div class="css-panelNumberB js-panelNumberD1">
+            <div class="css-panelNumber-buttons js-panelNumber-buttons">
+              <button class="button js-button-plus-D1">+</button>
+              <button class="button js-button-minus-D1">-</button>
+            </div>
+          </div>
+
+          <div class="panelNumber-Quantity panelNumber-QuantityD1">
+          </div>
+
+          <div class="css-expDIVDate js-expDIVDateD1"></div>
+          <input type="date" class="expInputD1 expInput" placeholder="EXP">
+
+          <div class="pic-d1" style="position: relative">
+            <div> <!--JS-ENTERPANELNUMEBR-->
+              <button  class="css-EnterPanelNumber js-EnterPanelNumberD1">
+                OK
+              </button>
+            </div>
+            <!--pic-->
+          </div>
+
+    </div>
+        <!--1ST PANEL-->
+
+<!--------START  D2 section------------------------------------------------------------------>
+        <!--2ND PANEL D2-->
+        <div class="shelf-D2">
+          <input type="text" class="css-input js-input-D2"/>
+
+          <div class="one js-one-D2">
+            <!--name-->
+          </div>
+
+          <div class="css-panelNumberB js-panelNumberD2">
+
+            <div class="css-panelNumber-buttons js-panelNumber-buttons">
+              <button class="button js-button-plus-D2">+</button>
+              <button class="button js-button-minus-D2">-</button>
+            </div>
+
+          </div>
+
+          <div class="panelNumber-Quantity panelNumber-QuantityD2"></div>
+
+          <div class="css-expDIVDate js-expDIVDateD2"></div>
+          <input type="date" class="expInputD2 expInput" placeholder="EXP">
+
+          <div class="pic-d2" style="position: relative">
+            <div>
+              <button class="css-EnterPanelNumber js-EnterPanelNumberD2">
+                OK
+              </button>
+            </div>
+            <!--pic-->
+          </div>
+        </div>
+
+        <!--2ND PANEL-->
+<!-----END  D2 section------>
+      </div>
+<!------------------END  D SECTION-------------------------------------------------------------->
+
+
+<!-----------------START  E section------------------------------------------------------------->
+<div class="shelf-1">
+  <!--1ST PANEL E1-->
+  <div class="shelf-E1">
+
+    <input type="text" class="css-input js-input-E1"/>
+
+    <div class="one js-one-E1">
+      <!--NAME -->
+    </div>
+
+    <!--JS-PANELNUMEBR-->
+    <div class="css-panelNumberB js-panelNumberE1">
+      <div class="css-panelNumber-buttons js-panelNumber-buttons">
+        <button class="button js-button-plus-E1">+</button>
+        <button class="button js-button-minus-E1">-</button>
+      </div>
+    </div>
+
+    <div class="panelNumber-Quantity panelNumber-QuantityE1">
+    </div>
+
+    <div class="css-expDIVDate js-expDIVDateE1"></div>
+    <input type="date" class="expInputE1 expInput" placeholder="EXP">
+
+    <div class="pic-E1" style="position: relative">
+      <div> <!--JS-ENTERPANELNUMEBR-->
+        <button  class="css-EnterPanelNumber js-EnterPanelNumberE1">
+          OK
+        </button>
+      </div>
+      <!--pic-->
+    </div>
+
+</div>
+  <!--1ST PANEL-->
+
+<!--------START  E2 section------------------------------------------------------------------>
+  <!--2ND PANEL E2-->
+  <div class="shelf-E2">
+
+    <input type="text" class="css-input js-input-E2"/>
+
+    <div class="one js-one-E2">
+      <!--NAME -->
+    </div>
+
+    <!--JS-PANELNUMEBR-->
+    <div class="css-panelNumberB js-panelNumberE2">
+      <div class="css-panelNumber-buttons js-panelNumber-buttons">
+        <button class="button js-button-plus-E2">+</button>
+        <button class="button js-button-minus-E2">-</button>
+      </div>
+    </div>
+
+    <div class="panelNumber-Quantity panelNumber-QuantityE2">
+    </div>
+
+    <div class="css-expDIVDate js-expDIVDateE2"></div>
+    <input type="date" class="expInputE2 expInput" placeholder="EXP">
+
+    <div class="pic-E2" style="position: relative">
+      <div> <!--JS-ENTERPANELNUMEBR-->
+        <button  class="css-EnterPanelNumber js-EnterPanelNumberE2">
+          OK
+        </button>
+      </div>
+      <!--pic-->
+    </div>
+
+</div>
+  <!--2ND PANEL-->
+<!-----END  E2 section------>
+</div>
+<!------------------END  E SECTION-------------------------------------------------------------->
+
+
+<!-----------------START  F section------------------------------------------------------------->
+<div class="shelf-1">
+  <!--1ST PANEL F1-->
+  <div class="shelf-F1">
+
+    <input type="text" class="css-input js-input-F1"/>
+
+    <div class="one js-one-F1">
+      <!--NAME -->
+    </div>
+
+    <!--JS-PANELNUMEBR-->
+    <div class="css-panelNumberB js-panelNumberF1">
+      <div class="css-panelNumber-buttons js-panelNumber-buttons">
+        <button class="button js-button-plus-F1">+</button>
+        <button class="button js-button-minus-F1">-</button>
+      </div>
+    </div>
+
+    <div class="panelNumber-Quantity panelNumber-QuantityF1">
+    </div>
+
+    <div class="css-expDIVDate js-expDIVDateF1"></div>
+    <input type="date" class="expInputF1 expInput" placeholder="EXP">
+
+    <div class="pic-F1" style="position: relative">
+      <div> <!--JS-ENTERPANELNUMEBR-->
+        <button  class="css-EnterPanelNumber js-EnterPanelNumberF1">
+          OK
+        </button>
+      </div>
+      <!--pic-->
+    </div>
+
+</div>
+  <!--1ST PANEL-->
+
+<!--------START  F2 section------------------------------------------------------------------>
+  <!--2ND PANEL F2-->
+  <div class="shelf-F2">
+
+    <input type="text" class="css-input js-input-F2"/>
+
+    <div class="one js-one-F2">
+      <!--NAME -->
+    </div>
+
+    <!--JS-PANELNUMEBR-->
+    <div class="css-panelNumberB js-panelNumberF2">
+      <div class="css-panelNumber-buttons js-panelNumber-buttons">
+        <button class="button js-button-plus-F2">+</button>
+        <button class="button js-button-minus-F2">-</button>
+      </div>
+    </div>
+
+    <div class="panelNumber-Quantity panelNumber-QuantityF2">
+    </div>
+
+    <div class="css-expDIVDate js-expDIVDateF2"></div>
+    <input type="date" class="expInputF2 expInput" placeholder="EXP">
+
+    <div class="pic-F2" style="position: relative">
+      <div> <!--JS-ENTERPANELNUMEBR-->
+        <button  class="css-EnterPanelNumber js-EnterPanelNumberF2">
+          OK
+        </button>
+      </div>
+      <!--pic-->
+    </div>
+
+</div>
+  <!--2ND PANEL-->
+<!-----END  F2 section------>
+</div>
+<!------------------END  F SECTION-------------------------------------------------------------->
+
+
+<!-----------------START  G section------------------------------------------------------------->
+<div class="shelf-1">
+  <!--1ST PANEL G1-->
+  <div class="shelf-G1">
+
+    <input type="text" class="css-input js-input-G1"/>
+
+    <div class="one js-one-G1">
+      <!--NAME -->
+    </div>
+
+    <!--JS-PANELNUMEBR-->
+    <div class="css-panelNumberC js-panelNumberG1">
+      <div class="css-panelNumber-buttons js-panelNumber-buttons">
+        <button class="button js-button-plus-G1">+</button>
+        <button class="button js-button-minus-G1">-</button>
+      </div>
+    </div>
+
+    <div class="panelNumber-Quantity panelNumber-QuantityG1">
+    </div>
+
+    <div class="css-expDIVDate js-expDIVDateG1"></div>
+    <input type="date" class="expInputG1 expInput" placeholder="EXP">
+
+    <div class="pic-G1" style="position: relative">
+      <div> <!--JS-ENTERPANELNUMEBR-->
+        <button  class="css-EnterPanelNumber js-EnterPanelNumberG1">
+          OK
+        </button>
+      </div>
+      <!--pic-->
+    </div>
+
+</div>
+  <!--1ST PANEL-->
+
+<!--------START  G2 section------------------------------------------------------------------>
+  <!--2ND PANEL G2-->
+  <div class="shelf-G2">
+
+    <input type="text" class="css-input js-input-G2"/>
+
+    <div class="one js-one-G2">
+      <!--NAME -->
+    </div>
+
+    <!--JS-PANELNUMEBR-->
+    <div class="css-panelNumberC js-panelNumberG2">
+      <div class="css-panelNumber-buttons js-panelNumber-buttons">
+        <button class="button js-button-plus-G2">+</button>
+        <button class="button js-button-minus-G2">-</button>
+      </div>
+    </div>
+
+    <div class="panelNumber-Quantity panelNumber-QuantityG2">
+    </div>
+
+    <div class="css-expDIVDate js-expDIVDateG2"></div>
+    <input type="date" class="expInputG2 expInput" placeholder="EXP">
+
+    <div class="pic-G2" style="position: relative">
+      <div> <!--JS-ENTERPANELNUMEBR-->
+        <button  class="css-EnterPanelNumber js-EnterPanelNumberG2">
+          OK
+        </button>
+      </div>
+      <!--pic-->
+    </div>
+
+</div>
+  <!--2ND PANEL-->
+<!-----END  G2 section------>
+</div>
+<!------------------END  G SECTION-------------------------------------------------------------->
+
+
+<!-----------------START  H section------------------------------------------------------------->
+<div class="shelf-1">
+  <!--1ST PANEL H1-->
+  <div class="shelf-H1">
+
+    <input type="text" class="css-input js-input-H1"/>
+
+    <div class="one js-one-H1">
+      <!--NAME -->
+    </div>
+
+    <!--JS-PANELNUMEBR-->
+    <div class="css-panelNumberC js-panelNumberH1">
+      <div class="css-panelNumber-buttons js-panelNumber-buttons">
+        <button class="button js-button-plus-H1">+</button>
+        <button class="button js-button-minus-H1">-</button>
+      </div>
+    </div>
+
+    <div class="panelNumber-Quantity panelNumber-QuantityH1">
+    </div>
+
+    <div class="css-expDIVDate js-expDIVDateH1"></div>
+    <input type="date" class="expInputH1 expInput" placeholder="EXP">
+
+    <div class="pic-H1" style="position: relative">
+      <div> <!--JS-ENTERPANELNUMEBR-->
+        <button  class="css-EnterPanelNumber js-EnterPanelNumberH1">
+          OK
+        </button>
+      </div>
+      <!--pic-->
+    </div>
+
+</div>
+  <!--1ST PANEL-->
+
+<!--------START  H2 section------------------------------------------------------------------>
+  <!--2ND PANEL H2-->
+  <div class="shelf-H2">
+
+    <input type="text" class="css-input js-input-H2"/>
+
+    <div class="one js-one-H2">
+      <!--NAME -->
+    </div>
+
+    <!--JS-PANELNUMEBR-->
+    <div class="css-panelNumberC js-panelNumberH2">
+      <div class="css-panelNumber-buttons js-panelNumber-buttons">
+        <button class="button js-button-plus-H2">+</button>
+        <button class="button js-button-minus-H2">-</button>
+      </div>
+    </div>
+
+    <div class="panelNumber-Quantity panelNumber-QuantityH2">
+    </div>
+
+    <div class="css-expDIVDate js-expDIVDateH2"></div>
+    <input type="date" class="expInputH2 expInput" placeholder="EXP">
+
+    <div class="pic-H2" style="position: relative">
+      <div> <!--JS-ENTERPANELNUMEBR-->
+        <button  class="css-EnterPanelNumber js-EnterPanelNumberH2">
+          OK
+        </button>
+      </div>
+      <!--pic-->
+    </div>
+
+</div>
+  <!--2ND PANEL-->
+<!-----END  H2 section------>
+</div>
+<!------------------END  H SECTION-------------------------------------------------------------->
+
+<!-----------------START  I section------------------------------------------------------------->
+<div class="shelf-1">
+  <!--1ST PANEL I1-->
+  <div class="shelf-I1">
+
+    <input type="text" class="css-input js-input-I1"/>
+
+    <div class="one js-one-I1">
+      <!--NAME -->
+    </div>
+
+    <!--JS-PANELNUMEBR-->
+    <div class="css-panelNumberC js-panelNumberI1">
+      <div class="css-panelNumber-buttons js-panelNumber-buttons">
+        <button class="button js-button-plus-I1">+</button>
+        <button class="button js-button-minus-I1">-</button>
+      </div>
+    </div>
+
+    <div class="panelNumber-Quantity panelNumber-QuantityI1">
+    </div>
+
+    <div class="css-expDIVDate js-expDIVDateI1"></div>
+    <input type="date" class="expInputI1 expInput" placeholder="EXP">
+
+    <div class="pic-I1" style="position: relative">
+      <div> <!--JS-ENTERPANELNUMEBR-->
+        <button  class="css-EnterPanelNumber js-EnterPanelNumberI1">
+          OK
+        </button>
+      </div>
+      <!--pic-->
+    </div>
+
+</div>
+  <!--1ST PANEL-->
+
+<!--------START  I2 section------------------------------------------------------------------>
+  <!--2ND PANEL I2-->
+  <div class="shelf-I2">
+
+    <input type="text" class="css-input js-input-I2"/>
+
+    <div class="one js-one-I2">
+      <!--NAME -->
+    </div>
+
+    <!--JS-PANELNUMEBR-->
+    <div class="css-panelNumberC js-panelNumberI2">
+      <div class="css-panelNumber-buttons js-panelNumber-buttons">
+        <button class="button js-button-plus-I2">+</button>
+        <button class="button js-button-minus-I2">-</button>
+      </div>
+    </div>
+
+    <div class="panelNumber-Quantity panelNumber-QuantityI2">
+    </div>
+
+    <div class="css-expDIVDate js-expDIVDateI2"></div>
+    <input type="date" class="expInputI2 expInput" placeholder="EXP">
+
+    <div class="pic-I2" style="position: relative">
+      <div> <!--JS-ENTERPANELNUMEBR-->
+        <button  class="css-EnterPanelNumber js-EnterPanelNumberI2">
+          OK
+        </button>
+      </div>
+      <!--pic-->
+    </div>
+
+</div>
+  <!--2ND PANEL-->
+<!-----END  I2 section------>
+</div>
+<!------------------END  I SECTION-------------------------------------------------------------->
+
+<!-----------------START  J section------------------------------------------------------------->
+<div class="shelf-1">
+  <!--1ST PANEL J1-->
+  <div class="shelf-J1">
+
+    <input type="text" class="css-input js-input-J1"/>
+
+    <div class="one js-one-J1">
+      <!--NAME -->
+    </div>
+
+    <!--JS-PANELNUMEBR-->
+    <div class="css-panelNumberD js-panelNumberJ1">
+      <div class="css-panelNumber-buttons js-panelNumber-buttons">
+        <button class="button js-button-plus-J1">+</button>
+        <button class="button js-button-minus-J1">-</button>
+      </div>
+    </div>
+
+    <div class="panelNumber-Quantity panelNumber-QuantityJ1">
+    </div>
+
+    <div class="css-expDIVDate js-expDIVDateJ1"></div>
+    <input type="date" class="expInputJ1 expInput" placeholder="EXP">
+
+    <div class="pic-J1" style="position: relative">
+      <div> <!--JS-ENTERPANELNUMEBR-->
+        <button  class="css-EnterPanelNumber js-EnterPanelNumberJ1">
+          OK
+        </button>
+      </div>
+      <!--pic-->
+    </div>
+
+</div>
+  <!--1ST PANEL-->
+
+<!--------START  J2 section------------------------------------------------------------------>
+  <!--2ND PANEL J2-->
+  <div class="shelf-J2">
+
+    <input type="text" class="css-input js-input-J2"/>
+
+    <div class="one js-one-J2">
+      <!--NAME -->
+    </div>
+
+    <!--JS-PANELNUMEBR-->
+    <div class="css-panelNumberD js-panelNumberJ2">
+      <div class="css-panelNumber-buttons js-panelNumber-buttons">
+        <button class="button js-button-plus-J2">+</button>
+        <button class="button js-button-minus-J2">-</button>
+      </div>
+    </div>
+
+    <div class="panelNumber-Quantity panelNumber-QuantityJ2">
+    </div>
+
+    <div class="css-expDIVDate js-expDIVDateJ2"></div>
+    <input type="date" class="expInputJ2 expInput" placeholder="EXP">
+
+    <div class="pic-J2" style="position: relative">
+      <div> <!--JS-ENTERPANELNUMEBR-->
+        <button  class="css-EnterPanelNumber js-EnterPanelNumberJ2">
+          OK
+        </button>
+      </div>
+      <!--pic-->
+    </div>
+
+</div>
+  <!--2ND PANEL-->
+<!-----END  J2 section------>
+</div>
+<!------------------END  J SECTION-------------------------------------------------------------->
+
+<!-----------------START  K section------------------------------------------------------------->
+<div class="shelf-1">
+  <!--1ST PANEL K1-->
+  <div class="shelf-K1">
+
+    <input type="text" class="css-input js-input-K1"/>
+
+    <div class="one js-one-K1">
+      <!--NAME -->
+    </div>
+
+    <!--JS-PANELNUMEBR-->
+    <div class="css-panelNumberD js-panelNumberK1">
+      <div class="css-panelNumber-buttons js-panelNumber-buttons">
+        <button class="button js-button-plus-K1">+</button>
+        <button class="button js-button-minus-K1">-</button>
+      </div>
+    </div>
+
+    <div class="panelNumber-Quantity panelNumber-QuantityK1">
+    </div>
+
+    <div class="css-expDIVDate js-expDIVDateK1"></div>
+    <input type="date" class="expInputK1 expInput" placeholder="EXP">
+
+    <div class="pic-K1" style="position: relative">
+      <div> <!--JS-ENTERPANELNUMEBR-->
+        <button  class="css-EnterPanelNumber js-EnterPanelNumberK1">
+          OK
+        </button>
+      </div>
+      <!--pic-->
+    </div>
+
+</div>
+  <!--1ST PANEL-->
+
+<!--------START  K2 section------------------------------------------------------------------>
+  <!--2ND PANEL K2-->
+  <div class="shelf-K2">
+
+    <input type="text" class="css-input js-input-K2"/>
+
+    <div class="one js-one-K2">
+      <!--NAME -->
+    </div>
+
+    <!--JS-PANELNUMEBR-->
+    <div class="css-panelNumberD js-panelNumberK2">
+      <div class="css-panelNumber-buttons js-panelNumber-buttons">
+        <button class="button js-button-plus-K2">+</button>
+        <button class="button js-button-minus-K2">-</button>
+      </div>
+    </div>
+
+    <div class="panelNumber-Quantity panelNumber-QuantityK2">
+    </div>
+
+    <div class="css-expDIVDate js-expDIVDateK2"></div>
+    <input type="date" class="expInputK2 expInput" placeholder="EXP">
+
+    <div class="pic-K2" style="position: relative">
+      <div> <!--JS-ENTERPANELNUMEBR-->
+        <button  class="css-EnterPanelNumber js-EnterPanelNumberK2">
+          OK
+        </button>
+      </div>
+      <!--pic-->
+    </div>
+
+</div>
+  <!--2ND PANEL-->
+<!-----END  K2 section------>
+</div>
+<!------------------END  K SECTION-------------------------------------------------------------->
+
+<!-----------------START  L section------------------------------------------------------------->
+<div class="shelf-1">
+  <!--1ST PANEL L1-->
+  <div class="shelf-L1">
+
+    <input type="text" class="css-input js-input-L1"/>
+
+    <div class="one js-one-L1">
+      <!--NAME -->
+    </div>
+
+    <!--JS-PANELNUMEBR-->
+    <div class="css-panelNumberD js-panelNumberL1">
+      <div class="css-panelNumber-buttons js-panelNumber-buttons">
+        <button class="button js-button-plus-L1">+</button>
+        <button class="button js-button-minus-L1">-</button>
+      </div>
+    </div>
+
+    <div class="panelNumber-Quantity panelNumber-QuantityL1">
+    </div>
+
+    <div class="css-expDIVDate js-expDIVDateL1"></div>
+    <input type="date" class="expInputL1 expInput" placeholder="EXP">
+    
+    <div class="pic-L1" style="position: relative">
+      <div> <!--JS-ENTERPANELNUMEBR-->
+        <button  class="css-EnterPanelNumber js-EnterPanelNumberL1">
+          OK
+        </button>
+      </div>
+      <!--pic-->
+    </div>
+
+</div>
+  <!--1ST PANEL-->
+
+<!--------START  L2 section------------------------------------------------------------------>
+  <!--2ND PANEL L2-->
+  <div class="shelf-L2">
+
+    <input type="text" class="css-input js-input-L2"/>
+
+    <div class="one js-one-L2">
+      <!--NAME -->
+    </div>
+
+    <!--JS-PANELNUMEBR-->
+    <div class="css-panelNumberD js-panelNumberL2">
+      <div class="css-panelNumber-buttons js-panelNumber-buttons">
+        <button class="button js-button-plus-L2">+</button>
+        <button class="button js-button-minus-L2">-</button>
+      </div>
+    </div>
+
+    <div class="panelNumber-Quantity panelNumber-QuantityL2">
+    </div>
+
+    <div class="css-expDIVDate js-expDIVDateL2"></div>
+    <input type="date" class="expInputL2 expInput" placeholder="EXP">
+    
+    <div class="pic-L2" style="position: relative">
+      <div> <!--JS-ENTERPANELNUMEBR-->
+        <button  class="css-EnterPanelNumber js-EnterPanelNumberL2">
+          OK
+        </button>
+      </div>
+      <!--pic-->
+    </div>
+
+</div>
+  <!--2ND PANEL-->
+<!-----END  L2 section------>
+</div>
+<!------------------END  L SECTION-------------------------------------------------------------->
+      <div class="shelf-1">
+    </div>
+    <script src="prototypeShelf.js"></script>
+  </body>
+</html>

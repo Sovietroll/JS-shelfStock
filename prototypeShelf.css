@@ -1,0 +1,573 @@
+
+      /* TRY TO USE % THAN PX BECAUSE ITS MORE COMPATIBLE IN MOBILE */
+      *{
+        font-family: Oxygen;
+      }
+      body{
+        padding: 5px;
+        margin: 0px; 
+        background-color: rgb(131, 131, 131);
+      }
+      .currentDate{ /** default **/
+        color: white;
+        font-weight: 700;
+      }
+      .currentDate-Expired{
+        color: rgb(255, 58, 58);
+        /* background-color: rgb(253, 101, 101, 0.5); */
+      }
+      .currentDate-NotExpired{
+        color: rgb(75, 75, 243);
+      }
+      .list {
+        background-color: rgb(245, 245, 245);
+        width: 100%;
+        height: auto;
+        border-radius: 5px;
+        position: relative;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+      }
+      .list-content {
+        display: inline-block;
+        width: 100%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+
+      }
+      .list-title {
+        transition: .5s ease;
+        position: sticky;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: 0%;
+        bottom: 0%;
+        height: 35px;
+        width: 100%;
+        z-index: 10;
+        font-weight: 700;
+        color: white;
+        opacity: .95;
+        background-color: rgb(51, 153, 119);
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+      }
+      .list-title2 {
+        transition: .5s ease;
+        /* position: sticky; */
+        position: absolute;
+        position: sticky;
+        display: flex;
+        justify-content: center;
+        top: 0%;
+        bottom: 100%;
+        height: 70px;
+        width: 100%;
+        z-index: 10;
+        opacity: .95;
+        border-radius: 0 0 10px 10px;
+        background-color: rgb(51, 153, 119);
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+      }
+      /* PERFECT THE TRANSITION DOWN!! */
+      /* THEN PUT PRODUCT THEN FINISH */
+      .goDown{ /* DOWN */
+        transition: .5s ease;
+        top: 0;
+        z-index: 12;
+        opacity: 1;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+      }
+
+      .buttonTop{ /* button UP */
+        margin-top: 4%;
+        transition: .5s ease;
+        width: 80px;
+        height: 40px;
+        font-size: 13px;
+        font-weight: 700;
+        border-style: none;
+        border-radius: 20px;
+        transition: .2s ease;
+        color: black;
+        background-color: rgb(255, 255, 255);
+      } 
+
+
+      /*LIST ITEM/////////////////////////////////////////////////////////////*/
+      .mainCover-list{
+        display: flex;
+      }
+      .css-shelf-list{
+        display: flex;
+        display: grid;
+        background-color: rgb(110, 110, 110);
+        width: 100%;
+        border-radius:8px;
+        grid-template-columns:1fr 1fr 35px 45px 20px;
+        grid-template-rows: 40px;
+        margin: 4px;
+        z-index: 0;
+        font-size: 15px;
+        font-weight: bold;
+        transition: .2s ease;
+      }
+      /*---------------------------------*/
+      .css-shelf-HIGHLIGHT{
+        background: radial-gradient(circle, rgb(120, 255, 129) 0%, rgb(64, 254, 102) 100%);
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        z-index: 10;
+        transition: .2s ease;
+      }
+      .css-shelf-list:hover{
+        cursor: pointer;
+        transition: .2s ease;
+      }
+      .css-shelf-list-QUANTITY{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .css-shelf-list-NAME{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .css-shelf-list-LOC{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .css-shelf-list-EXP{
+        display: flex;
+      }
+      .list-NAME{
+        padding: 5px;
+      }
+      
+
+      .REMOVE-button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+        background-color: rgb(1, 113, 75);
+        font-weight: 700;
+        width: 25px;
+        height: 25px;
+        font-size: 10px;
+        border-style: none;
+        border-radius: 100%;
+        transition: .2s ease;
+        margin-top: 6px;
+      }
+      
+      .REMOVE-button:hover{
+        background-color: rgb(255, 171, 171);
+        cursor:pointer;
+        color: rgb(255, 255, 255);
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        z-index: 10;
+        transition: .2s ease;
+      }
+      .context-menu{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 120%;
+      }
+
+      .fa-ellipsis-vertical:hover{
+        color: rgb(244, 237, 237);
+      }
+
+      .fa-xmark{
+        color: rgb(255, 255, 255);
+      }
+      .fa-circle-chevron-up{
+        color: rgb(1, 113, 75);
+      }
+
+      /*------LIST ITEM ENDED--------------------*/
+
+      .css-expDIVDate{ /*place where exp date placed*/
+        position: absolute;
+        top: 40px;
+        height: 15.5px;
+        left: 0%;
+        right: 0%;
+        text-align: center;
+        font-size: 9.5px;
+        border-radius: 2px;
+        box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(240, 2, 2, 0.24) 0px 1px 2px;
+        z-index: 1;
+        backdrop-filter: blur(1px);
+        /* background-color: rgb(255, 255, 255,0.1); */
+        transition: .2s ease;
+      }
+      .expInput{ /*! BLANK INPUT  */
+        visibility: visible;
+        position: absolute;
+        font-size: 10px;
+        top: 40px;
+        left: 1.5%;
+        right: 0%;
+        width: 80%;
+        height: 10%;
+        margin-top:1.5%;
+        outline: none;
+        border-style: none;
+        border-radius: 5px;
+        text-align: center;
+        transition: .2s ease;
+        z-index: 10;
+        background-color: white;
+      }
+      .expInput2{ /*! BLANK INPUT  2*/
+        visibility: visible;
+        position: absolute;
+        font-size: 10px;
+        top: 40px;
+        left: 1.5%;
+        right: 0%;
+        width: 80%;
+        height: 7%;
+        margin-top:1.5%;
+        outline: none;
+        border-style: none;
+        border-radius: 5px;
+        text-align: center;
+        transition: .2s ease;
+        z-index: 10;
+        background-color: black;
+      }
+
+      .expInput-Empty{ /*! INPUT DISSAPEAR */
+        visibility: hidden;
+        width: 0%;
+        transition: .2s ease;
+
+      }
+
+      .shelf { /* behind the shelf */
+        margin-top: 5px;
+        height: 408px;
+        width: 100%;
+        background-color: rgb(248, 248, 248);
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        row-gap: 2px;
+        column-gap: 2px;
+        overflow: hidden;
+        position: relative;
+        border-width: .1px;
+        border-radius: 5px;
+        border-color: rgb(0, 0, 0);
+        padding: 1px;
+        z-index: 0;
+      }
+      .shelf-1 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 2px;
+        height: 100px;
+        border-radius: 10px;
+        background-color: rgb(248, 248, 248);
+        box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+      }
+
+      .shelf-quantity {
+        background-color: rgba(30, 255, 33, 0.5);
+        position: absolute;
+        font-size: 7px;
+        font-weight: bold;
+        padding: 3.5px;
+        border-radius: 2px;
+        bottom: 63px;
+        left: 17px;
+      }
+ 
+
+      /* HIGHLIGHT */
+      .shelf-A1,
+      .shelf-A2,
+      .shelf-D1,
+      .shelf-D2,
+      .shelf-B1,
+      .shelf-B2,
+      .shelf-C1,
+      .shelf-C2,
+      .shelf-E1,
+      .shelf-E2,
+      .shelf-F1,
+      .shelf-F2,
+      .shelf-G1,
+      .shelf-G2,
+      .shelf-H1,
+      .shelf-H2,
+      .shelf-I1,
+      .shelf-I2,
+      .shelf-J1,
+      .shelf-J2,
+      .shelf-K1,
+      .shelf-K2,
+      .shelf-L1,
+      .shelf-L2{ 
+        display: grid;
+        grid-template-rows: 0.5fr 0.5fr 2fr;
+        overflow: hidden;
+        font-weight: bold;
+        transition: .2s ease;
+        margin: 1px;
+        position: relative;
+      }
+      .shelf-A1:hover,
+      .shelf-A2:hover,
+      .shelf-B1:hover,
+      .shelf-B2:hover,
+      .shelf-C1:hover,
+      .shelf-C2:hover,
+      .shelf-D1:hover,
+      .shelf-D2:hover,
+      .shelf-E1:hover,
+      .shelf-E2:hover,
+      .shelf-F1:hover,
+      .shelf-F2:hover,
+      .shelf-G1:hover,
+      .shelf-G2:hover,
+      .shelf-H1:hover,
+      .shelf-H2:hover,
+      .shelf-I1:hover,
+      .shelf-I2:hover,
+      .shelf-J1:hover,
+      .shelf-J2:hover,
+      .shelf-K1:hover,
+      .shelf-K2:hover,
+      .shelf-L1:hover,
+      .shelf-L2:hover{
+        transition: .2s ease;
+      }
+
+      /* BODY HIGHLIGHT */
+      .shelf-active{ 
+        
+        background: radial-gradient(circle, rgba(255,120,142,1) 0%, rgba(254,64,93,1) 100%);
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        width: 100%;
+        background-color: brown;
+        transition: .1s ease;
+        z-index: 5;
+        border-radius: 5px;
+      }
+
+      /*ITEM NAME HERE*/
+      .one {
+        color: rgb(44, 44, 44);
+        font-size: 8px;
+        border-radius: 10px;
+        border-style: none;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+      }
+
+      /*CONTAINER FOR BUTTONS*/
+      .css-panelNumber-buttons {
+        position: relative;
+        display: flex;
+        width: 100%;
+        height: 50%;
+      }
+      /*BUTTONS FOR PLUS AND MINUS *not main*/
+      .button {
+        border-style: none;
+        background-color: rgb(255, 255, 255);
+        font-weight: 500;
+        transition: .2s ease;
+        border-radius: 3px 3px 0px 0px;
+        font-weight: 700;
+        font-size: 62%;
+      }
+      .button:active {
+        background-color:  rgb(255, 18, 53);
+      }
+
+      
+
+      /*----------------------------------------------------*/
+      .css-panelNumberA,.css-panelNumberB,
+      .css-panelNumberC,.css-panelNumberD  { /*HIDE*/ 
+        position: absolute;
+        top: 15px;
+        transition: .2s ease;
+        z-index: 0; 
+      } 
+      .css-panelNumber-activeA,.css-panelNumber-activeB,
+      .css-panelNumber-activeC,.css-panelNumber-activeD{ /*APPEAR*/
+        position: absolute;
+        top: 2px;
+        transition: .2s ease;
+        z-index: 1;
+      } 
+
+
+      /*ENTER BUTTONS*/
+      .css-EnterPanelNumber{/*HIDE*/
+        font-size: 10px;
+        border-radius: 5px;
+        border-style: none;
+        width: 100%;
+        height: 2px;
+        position: absolute;
+        top: -22px;
+        transition: .2s ease;
+        margin-left: 2.5px;
+        z-index: 0;
+      }
+
+      /*APPEAR*/
+      .css-EnterPanelNumber-active{
+        position: absolute;
+        font-size: 10px;
+        border-radius: 0px 0px 5px 5px;
+        border-style: none;
+        width: 100%;
+        top: -2px;
+        height: 20px;
+        transition: .2s ease;
+        z-index:10;
+      }
+ 
+      /*QUANTITY PANEL NUMBER WHERE QUANTITY ITEM SHOWED*/
+      .panelNumber-Quantity{
+        position: relative; /* tied with css-expDate */
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        background-color: rgb(255, 255, 255);
+        z-index: 1;
+        height: 24px;
+        margin: 1px;
+        cursor: pointer;
+        border-radius: 4px;
+        box-shadow: rgba(191, 54, 54, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+      }
+
+      .panelNumber-Quantity:active{
+        background-color: rgb(250, 41, 41);
+      } 
+
+      .css-input{ /* HIDDEN INPUT */
+        visibility: hidden;
+        position: absolute;
+        width: 0%;
+        height: 9%;
+        z-index: 0;
+        border-style: none;
+        outline:none;
+        transition: .2s ease;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+      }
+      .css-input-2{ /*APPEAR INPUT*/
+        visibility: visible;
+        font-size: 10px;
+        width: 80%;
+        z-index: 10;
+        transition: .2s ease;
+        display: flex;
+        border-style: none;
+        outline:none;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+      }
+   
+ 
+      .line-main{
+        display: flex;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr ;
+        grid-template-columns:1fr 1fr ;
+        align-items: center;
+        justify-content: left;
+        padding-left: 5px;
+      }
+      .pic-A1{
+        position: relative;
+        background-image: url(Pictures/herbalBlend.png);
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-position:center;
+      }
+
+      .pic-B1 {
+        background-image: url(Pictures/herbalBlend.png);
+        background-repeat: no-repeat;
+        background-size:contain;
+        background-position:center;
+      }
+      .pic-B2 {
+        background-image: url(Pictures/OMEGA.png);
+        background-repeat: no-repeat;
+        background-size:contain;
+        background-position:center;
+        margin: 1%;
+      }
+      .pic-d1 {
+        background-image: url(Pictures/vitalize.jpg);
+        background-repeat: no-repeat;
+        background-size:contain;
+        background-position:center;
+        margin: 1%;
+      }
+      .pic-d2{
+        background-image: url(Pictures/vita-c.jpg);
+        background-repeat: no-repeat;
+        background-size:contain;
+        background-position:center;
+        margin: 1%;
+      }
+      .pic-C1{
+        background-image: url(Pictures/esp.png);
+        background-repeat: no-repeat;
+        background-size:contain;
+        background-position:center;
+        margin: 1%;
+      } 
+      .pic-C2{
+        background-image: url(Pictures/lecithin.png);
+        background-repeat: no-repeat;
+        background-size:contain;
+        background-position:center;
+        margin: 1%;
+      }
+      .pic-E1{
+        background-image: url(Pictures/esp.png);
+        background-repeat: no-repeat;
+        background-size:contain;
+        background-position:center;
+        margin: 1%;
+      } 
+      .pic-E2,
+      .pic-F1,
+      .pic-F2,
+      .pic-G1,
+      .pic-G2,
+      .pic-H1,
+      .pic-H2,
+      .pic-I1,
+      .pic-I2,
+      .pic-J1,
+      .pic-J2,
+      .pic-K1,
+      .pic-K2,
+      .pic-L1,
+      .pic-L2{
+        background-image: url(Pictures/lecithin.png);
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-position:center;
+      }
