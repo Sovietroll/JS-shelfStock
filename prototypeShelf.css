@@ -14,10 +14,11 @@
       }
       .currentDate-Expired{
         color: rgb(255, 58, 58);
-        /* background-color: rgb(253, 101, 101, 0.5); */
+        background-color: red;
       }
       .currentDate-NotExpired{
         color: rgb(18, 148, 29);
+        background-color: green;
       }
       .list {
         background-color: rgb(245, 245, 245);

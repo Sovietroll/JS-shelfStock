@@ -1,9 +1,11 @@
 // //DATE HERE//
 const date = new Date();
+let dateToday = date.getTime();
+console.log(new Date(dateToday));
 
 let year = date.getFullYear();
-let month = String(date.getMonth()+1).padStart(2,"0");
-let day = String(date.getDate()).padStart(2,"0");
+let month = String(date.getMonth()+1)
+let day = String(date.getDate())
 
 let currentDate = `${day}/${month}/${year}`;
 let dateNow = document.querySelector('.currentDate');
@@ -41,43 +43,48 @@ let expDateA1 = document.querySelector('.js-expDIVDateA1');
 let expDateA2 = document.querySelector('.js-expDIVDateA2');
 
 
-//* A1
+function dateEXP(expDate, year, month, day,section){
+    let date = new Date(year,month,day);
+    expDate.innerHTML = new Date(date).toLocaleDateString('en-GB');
+    date[section] = date.getTime();
+    return date[section];
+}
+let dateA1;
+let dateA2;
+
+//! A1
 nameA1.innerHTML = 'Herbal Blend';
 quantityA1.innerHTML = 'x3';
+dateA1 = dateEXP(expDateA1, 2024, (4-1), 4), 'A1';
+let nearDate = dateA1/0.998;
+// console.log(`dateA1 ${dateA1}`);
 
-// expDateA1.innerHTML = '11/05/2024';
-let dateA1 = new Date(2025, 1, 10);
-let yearA1 = dateA1.getFullYear();
-let monthA1 = dateA1.getMonth();
-let dayA1 = dateA1.getDate();
+// console.log(date);
+console.log(new Date(nearDate));
 
-let nowDateA1 = `${dayA1}/${monthA1}/${yearA1}`;
 
-console.log(nowDateA1);
-console.log(dayA1);
-console.log(monthA1);
-console.log(`dateA1 ${dateA1}`);
 
-expDateA1.innerHTML = `${nowDateA1}`;
-//* A2
+
+
+//! A2
 nameA2.innerHTML = 'Cafe Latte';
 quantityA2.innerHTML = 'x1';
+expDateA2.innerHTML = dateA2;
 
-// expDateA2.innerHTML = '31/12/2024';
-expDateA2 = new Date('December 31, 2024');
 
-console.log(nowDateA1);
-console.log(currentDate);
+
 //todo DO THIS
-if (nowDateA1 <= currentDate){
-    console.log('BIGGER');
+if (dateA1 <= date){
+    expDateA1.classList.add("currentDate-Expired");
+    console.log('expired');
 }
-else {
-    console.log('SMALLER');
+else if (dateA1 >= date){
+    expDateA1.classList.add("currentDate-NotExpired");
+    console.log('not expired');
 }
-const allEXP = [
-    expDateA1, expDateA2
-];
+else if (dateA1/0.998){
+    console.log('HALF')
+}
 
 
 // //TODO convert string to date
@@ -1144,35 +1151,23 @@ const allEXP = [
 //   const inputL2 = document.querySelector('.js-input-L2');
 
   
-// //EXP Input//
-
-// //TODO iPhone date input - use addEventListener when user pick date in iPhone
-
-// let  expiredDate;
-
-
-// let expInputStatus;
-// let dateValue;
-
-
-
 // //TODO click other input to disable current click //////////
-// // document.addEventListener('click', () => {
-// //   unclickClickInput(shelf.A2,EXPinputDateA1,DIVexpA1,[0],'EXPinputDateA1');
-// // })
-// // document.addEventListener('click', () => {
-// //   let currentShelf = clickEXPInput;
-// //   // inputHide(currentShelf);
-// //   console.log('inputHide',currentShelf);
-// // })
+// document.addEventListener('click', () => {
+//   unclickClickInput(shelf.A2,EXPinputDateA1,DIVexpA1,[0],'EXPinputDateA1');
+// })
+// document.addEventListener('click', () => {
+//   let currentShelf = clickEXPInput;
+//   // inputHide(currentShelf);
+//   console.log('inputHide',currentShelf);
+// })
 
-// // //!PARAM for unclickClickInput ////
-// // function unclickClickInput(shelf,expInput,divHTML,index,savedExpInput){
-// //   if(clickEXPInput === shelf){
-// //     allEXP.forEach(expInput => {
+// //!PARAM for unclickClickInput ////
+// function unclickClickInput(shelf,expInput,divHTML,index,savedExpInput){
+//   if(clickEXPInput === shelf){
+//     allEXP.forEach(expInput => {
     
-// //      expInput.classList.add("expInput-Empty");
-// //     })
+//      expInput.classList.add("expInput-Empty");
+//     })
 
 // //     divHTML.innerHTML = savedOutput[index][savedExpInput];
 // //     console.log('run unclickClickInput');
