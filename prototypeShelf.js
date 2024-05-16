@@ -8,9 +8,36 @@ let day = String(date.getDate())
 
 let currentDate = `${day}/${month}/${year}`;
 let dateNow = document.querySelector('.currentDate');
+
 dateNow.innerHTML = `Today is ${currentDate}`;
 
 
+let jsUpdated = document.querySelector('.js-updated');
+
+// btnUpdate.innerHTML = 
+jsUpdated.innerHTML = 
+`
+<button class="btn-update"
+>
+Check in
+</button>
+`;
+let btnUpdate = document.querySelector('.btn-update');
+
+btnUpdate.addEventListener('click', ()=>{
+    btnUpdate.textContent = 'Done! Today has been updated';
+    jsUpdated.innerHTML = `
+    <button class="btn-update">
+        Done! Today has been updated
+    </button> 
+    <br> Updated at ${currentDate}
+    `;
+})
+
+function btnAfterClick(){
+ btnUpdate.value = '';
+ console.log('test');
+}
 
 // //TODO PUT DATE AS INPUT
 // let data = JSON.parse(localStorage.getItem('savedObjects')) || [];
@@ -255,34 +282,34 @@ quantityI2.innerHTML = '??';
 dateI2 = dateEXP(expDateI2, 2024,(6-1), 1, 'I2');
 
 //! J1
-nameJ1.innerHTML = '';
-quantityJ1.innerHTML = '';
-dateJ1 = dateEXP(expDateJ1, 2024,(1-1), 12, 'J1');
+nameJ1.innerHTML = 'S.Treatment';
+quantityJ1.innerHTML = 'x15';
+dateJ1 = dateEXP(expDateJ1, 2024,(4-1), 1, 'J1');
 
 //! J2
-nameJ2.innerHTML = '';
-quantityJ2.innerHTML = '';
-dateJ2 = dateEXP(expDateJ2, 2024,(1-1), 12, '');
+nameJ2.innerHTML = 'Brush';
+quantityJ2.innerHTML = 'x2';
+// dateJ2 = dateEXP(expDateJ2, 2024,(1-1), 12, '');
 
 //! K1
-nameK1.innerHTML = '';
-quantityK1.innerHTML = '';
-dateK1 = dateEXP(expDateK1, 2024,(1-1), 12, '');
+nameK1.innerHTML = 'Pillbox';
+quantityK1.innerHTML = '-';
+// dateK1 = dateEXP(expDateK1, 2024,(1-1), 12, '');
 
 //! K2
-nameK2.innerHTML = '';
-quantityK2.innerHTML = '';
-dateK2 = dateEXP(expDateK2, 2024,(1-1), 12, '');
+nameK2.innerHTML = 'Shaker Black';
+quantityK2.innerHTML = '-';
+// dateK2 = dateEXP(expDateK2, 2024,(1-1), 12, '');
 
 //! L1
-nameL1.innerHTML = '';
-quantityL1.innerHTML = '';
-dateL1 = dateEXP(expDateL1, 2024,(1-1), 12, '');
+nameL1.innerHTML = 'Shaker Prpl';
+quantityL1.innerHTML = '-';
+// dateL1 = dateEXP(expDateL1, 2024,(1-1), 12, '');
 
 //! L2
-nameL2.innerHTML = '';
-quantityL2.innerHTML = '';
-dateL2 = dateEXP(expDateL2, 2024,(1-1), 12, '');
+nameL2.innerHTML = 'Shaker Green';
+quantityL2.innerHTML = '-';
+// dateL2 = dateEXP(expDateL2, 2024,(1-1), 12, '');
 
 
 //TODO allDatesExpValues//

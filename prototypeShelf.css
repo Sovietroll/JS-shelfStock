@@ -8,13 +8,24 @@
         margin: 0px; 
         background-color: rgb(131, 131, 131);
       }
+      .js-updated{
+        /* background-color: black; */
+      }
+      .btn-update{
+        padding: 5px;
+        border-style: none;
+        border-radius: 5px;
+        font-size: 12px;
+      }
+      .btn-update:active{
+        background-color: black;
+      }
       .currentDate{ /** default **/
         color: white;
         font-weight: 700;
       }
       .currentDate-Expired{
         color: rgb(255, 58, 58);
-       
       }
       .currentDate-NearExpired{
         color: rgba(255, 94, 0, 0.795);
@@ -515,116 +526,146 @@
         background-size:cover;
         background-position:center;
       }
-
       .pic-B1 {
-        /* background-image: url(Pictures/cafe.png); */
+        background-image: url(Pictures/cinch_tea-removebg-preview.png);
         background-repeat: no-repeat;
-        background-size:contain;
+        background-size:cover;
         background-position:center;
       }
       .pic-B2 {
         background-image: url(Pictures/coqtrol.png);
         background-repeat: no-repeat;
-        background-size:contain;
+        background-size:cover;
         background-position:center;
-        margin: 1%;
       }
       .pic-C1{
         background-image: url(Pictures/oste.png);
         background-repeat: no-repeat;
-        background-size:contain;
+        background-size:cover;
         background-position:center;
-        margin: 1%;
       } 
       .pic-C2{
         background-image: url(Pictures/vita-c.png);
         background-repeat: no-repeat;
-        background-size:contain;
+        background-size:cover;
         background-position:center;
-        margin: 1%;
       }
       .pic-d1 {
         background-image: url(Pictures/alfafa\ s.png);
         background-repeat: no-repeat;
-        background-size:contain;
+        background-size:cover;
         background-position:center;
-        margin: 1%;
       }
       .pic-d2{
         background-image: url(Pictures/vitE.png);
         background-repeat: no-repeat;
-        background-size:contain;
+        background-size:cover;
         background-position:center;
-        margin: 1%;
       }
       .pic-E1{
         background-image: url(Pictures/lecithin.png);
         background-repeat: no-repeat;
-        background-size:contain;
+        background-size:cover;
         background-position:center;
         margin: 1%;
       } 
       .pic-E2{
         background-image: url(Pictures/esp.png);
         background-repeat: no-repeat;
-        background-size:contain;
+        background-size:cover;
         background-position:center;
         margin: 1%;
       } 
       .pic-F1{
         background-image: url(Pictures/soft\ fabric.png);
         background-repeat: no-repeat;
-        background-size:contain;
+        background-size:cover;
         background-position:center;
         margin: 1%;
       } 
       .pic-F2{
         background-image: url(Pictures/lockdaycream.png);
         background-repeat: no-repeat;
-        background-size:contain;
+        background-size:cover;
         background-position:center;
         margin: 1%;
       } 
       .pic-G1{
         background-image: url(Pictures/eyetreatment.png);
         background-repeat: no-repeat;
-        background-size:contain;
+        background-size:cover;
         background-position:center;
         margin: 1%;
       } 
       .pic-G2{
         background-image: url(Pictures/nightcreamrich.png);
         background-repeat: no-repeat;
-        background-size:contain;
+        background-size:cover;
         background-position:center;
         margin: 1%;
       } 
       .pic-H1{
         background-image: url(Pictures/toner.png);
         background-repeat: no-repeat;
-        background-size:contain;
+        background-size:cover;
         background-position:center;
         margin: 1%;
       } 
       .pic-H2{
         background-image: url(Pictures/toner.png);
         background-repeat: no-repeat;
-        background-size:contain;
+        background-size:cover;
         background-position:center;
         margin: 1%;
       } 
       .pic-I1{
-        background-image: url(Pictures/eyetreatment.png);
+        background-image: url(Pictures/shampoo\ cut\ out.png);
         background-repeat: no-repeat;
-        background-size:contain;
+        background-size:cover;
         background-position:center;
         margin: 1%;
       } 
       .pic-I2{
-        background-image: url(Pictures/nightcreamrich.png);
+        background-image: url(Pictures/conditioner-removebg-preview.png);
         background-repeat: no-repeat;
-        background-size:contain;
+        background-size:cover;
         background-position:center;
         margin: 1%;
       } 
-      
+      .pic-J1{
+        background-image: url(Pictures/scalp\ treatment.jpeg);
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-position:center;
+      } 
+      .pic-J2{
+        background-image: url(Pictures/shaklee\ brush.png);
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-position:center;
+      } 
+      .pic-K1{
+        background-image: url(Pictures/shaklee-pillbox-removebg-preview.png);
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-position:center;
+      } 
+      .pic-K2{
+        background-image: url(Pictures/shaker-hitam-new-removebg-preview.png);
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-position:center;
+      } 
+      .pic-L1{
+        background-image: url(Pictures/purple-shaker-removebg-preview.png);
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-position:center;
+      } 
+      .pic-L2{
+        background-image: url(Pictures/shaker_green-removebg-preview.png);
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-position:center;
+      } 
+
