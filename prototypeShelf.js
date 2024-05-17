@@ -213,7 +213,7 @@ dateB2 = dateEXP(expDateB2, 2024,(10-1), 18, 'B2');
 
 //! C1
 nameC1.innerHTML = 'Ostematrix';
-quantityC1.innerHTML = 'x1';
+quantityC1.innerHTML = 'OOS';
 dateC1 = dateEXP(expDateC1, 2025,(3-1), 24, 'C1');
 
 //! C2
