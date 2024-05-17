@@ -307,7 +307,7 @@ quantityL1.innerHTML = '-';
 // dateL1 = dateEXP(expDateL1, 2024,(1-1), 12, '');
 
 //! L2
-nameL2.innerHTML = 'Shaker Goldd';
+nameL2.innerHTML = 'Shaker Green';
 quantityL2.innerHTML = 'x4';
 // dateL2 = dateEXP(expDateL2, 2024,(1-1), 12, '');
 
