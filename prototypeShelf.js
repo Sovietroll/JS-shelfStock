@@ -288,12 +288,12 @@ dateJ1 = dateEXP(expDateJ1, 2024,(4-1), 1, 'J1');
 
 //! J2
 nameJ2.innerHTML = 'Brush';
-quantityJ2.innerHTML = 'x2';
+quantityJ2.innerHTML = 'x5';
 // dateJ2 = dateEXP(expDateJ2, 2024,(1-1), 12, '');
 
 //! K1
 nameK1.innerHTML = 'Pillbox';
-quantityK1.innerHTML = '-';
+quantityK1.innerHTML = 'x5';
 // dateK1 = dateEXP(expDateK1, 2024,(1-1), 12, '');
 
 //! K2
@@ -308,7 +308,7 @@ quantityL1.innerHTML = '-';
 
 //! L2
 nameL2.innerHTML = 'Shaker Gold';
-quantityL2.innerHTML = '-';
+quantityL2.innerHTML = 'x4';
 // dateL2 = dateEXP(expDateL2, 2024,(1-1), 12, '');
 
 
