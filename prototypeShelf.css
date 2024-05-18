@@ -33,6 +33,9 @@
       .currentDate-NotExpired{
         color: rgb(18, 148, 29);
       }
+
+      /*! OOS CSS */
+      
       .list {
         background-color: rgb(245, 245, 245);
         width: 100%;
@@ -473,7 +476,9 @@
       .panelNumber-Quantity:active{
         background-color: rgb(250, 41, 41);
       } 
-
+      .panelNumber-Quantity-OOS{
+        color: red;
+      }
       .css-input{ /* HIDDEN INPUT */
         visibility: hidden;
         position: absolute;

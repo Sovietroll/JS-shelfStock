@@ -85,6 +85,29 @@ const quantityK2 = document.querySelector('.panelNumber-QuantityK2');
 const quantityL1 = document.querySelector('.panelNumber-QuantityL1');
 const quantityL2 = document.querySelector('.panelNumber-QuantityL2');
 
+
+allQuantities = [
+    quantityA1, quantityA2, quantityB1, quantityB2, quantityC1,
+    quantityC2, quantityD1, quantityD2, quantityE1, quantityE2, 
+    quantityF1, quantityF2, quantityG1, quantityG2, quantityH1, 
+    quantityH2, quantityI1, quantityI2, quantityJ1, quantityJ2, 
+    quantityK1, quantityK2, quantityL1, quantityL2
+]
+
+// node.textContent.includes('Some text');
+
+// allQuantities.forEach(qty => {
+//     if (qty.textContent === 'OOS'){
+//         console.log('OOS1');
+//     }
+//     else if (qty.innerHTML === 'x1'){
+//         console.log('OOS2');
+//     }
+// })
+// window.addEventListener('DOMContentLoaded', () => {
+
+// })
+
 // Name selectors
 const nameA1 = document.querySelector('.js-one-A1');
 const nameA2 = document.querySelector('.js-one-A2');
@@ -218,7 +241,7 @@ dateC1 = dateEXP(expDateC1, 2025,(3-1), 24, 'C1');
 
 //! C2
 nameC2.innerHTML = 'Vita-C';
-quantityC2.innerHTML = 'x1';
+quantityC2.innerHTML = 'OOS';
 dateC2 = dateEXP(expDateC2, 2025,(3-1), 15, 'C2');
 
 //! D1
@@ -238,7 +261,7 @@ dateE1 = dateEXP(expDateE1, 2025,(11-1), 28, 'E1');
 
 //! E2
 nameE2.innerHTML = 'ESP';
-quantityE2.innerHTML = 'x1';
+quantityE2.innerHTML = 'OOS';
 dateE2 = dateEXP(expDateE2, 2025,(2-1), 7, 'E2');
 
 //! F1
@@ -312,6 +335,15 @@ quantityL2.innerHTML = 'x4';
 // dateL2 = dateEXP(expDateL2, 2024,(1-1), 12, '');
 
 
+allQuantities.forEach((qty,exp) => {
+    const expDates = allExpDates[exp];
+    if (qty.textContent === 'OOS'){
+        console.log('OOS');
+        qty.classList.add("panelNumber-Quantity-OOS");
+        expDates.innerHTML = ''; //* place blank at expired date of OOS items
+    }
+})
+
 //TODO allDatesExpValues//
 let allDatesExpValues = [
     dateA1, dateA2,
@@ -337,15 +369,15 @@ allExpDates.forEach((dateHTML, index) => {
 
     if (dateValues <= dateToday){ //! RED
         dateHTML.classList.add("currentDate-Expired");
-        console.log('expired');
+        // console.log('expired');
         
     }
     else if (nearEXP < dateToday){ //! ORANGE
         dateHTML.classList.add("currentDate-NearExpired");
-        console.log('HALF');
+        // console.log('HALF');
     }
     else if (dateValues >= dateToday){ //! GREEN
         dateHTML.classList.add("currentDate-NotExpired");
-        console.log('not expired');
+        // console.log('not expired');
     }
 })
