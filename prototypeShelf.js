@@ -266,7 +266,7 @@ dateE2 = dateEXP(expDateE2, 2025,(2-1), 7, 'E2');
 
 //! F1
 nameF1.innerHTML = 'Soft Fabric';
-quantityF1.innerHTML = 'x1';
+quantityF1.innerHTML = 'x12';
 dateF1 = dateEXP(expDateF1, 2024,(1-1), 5, 'F1');
 
 //! F2
@@ -296,12 +296,12 @@ dateH2 = dateEXP(expDateH2, 2025,(2-1), 1, 'H2');
 
 //! I1
 nameI1.innerHTML = 'Shampoo';
-quantityI1.innerHTML = '??';
+quantityI1.innerHTML = 'x46';
 dateI1 = dateEXP(expDateI1, 2024,(7-1), 1, 'I1');
 
 //! I2
 nameI2.innerHTML = 'Conditioner';
-quantityI2.innerHTML = '??';
+quantityI2.innerHTML = 'x6';
 dateI2 = dateEXP(expDateI2, 2024,(6-1), 1, 'I2');
 
 //! J1
@@ -321,12 +321,12 @@ quantityK1.innerHTML = 'x5';
 
 //! K2
 nameK2.innerHTML = 'Shaker Black';
-quantityK2.innerHTML = '-';
+quantityK2.innerHTML = 'x9';
 // dateK2 = dateEXP(expDateK2, 2024,(1-1), 12, '');
 
 //! L1
 nameL1.innerHTML = 'Shaker Prpl';
-quantityL1.innerHTML = '-';
+quantityL1.innerHTML = 'x7';
 // dateL1 = dateEXP(expDateL1, 2024,(1-1), 12, '');
 
 //! L2
