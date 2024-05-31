@@ -256,7 +256,7 @@ dateD2 = dateEXP(expDateD2, 2025,(5-1), 24, 'D2');
 
 //! E1
 nameE1.innerHTML = 'Lecithin';
-quantityE1.innerHTML = 'x2';
+quantityE1.innerHTML = 'OOS';
 dateE1 = dateEXP(expDateE1, 2025,(11-1), 28, 'E1');
 
 //! E2
@@ -267,7 +267,7 @@ dateE2 = dateEXP(expDateE2, 2025,(2-1), 7, 'E2');
 //! F1
 nameF1.innerHTML = 'Soft Fabric';
 quantityF1.innerHTML = 'x12';
-dateF1 = dateEXP(expDateF1, 2024,(1-1), 5, 'F1');
+dateF1 = dateEXP(expDateF1, 2024,(5-1), 1, 'F1');
 
 //! F2
 nameF2.innerHTML = 'Lock Day';
@@ -296,12 +296,12 @@ dateH2 = dateEXP(expDateH2, 2025,(2-1), 1, 'H2');
 
 //! I1
 nameI1.innerHTML = 'Shampoo';
-quantityI1.innerHTML = 'x46';
+quantityI1.innerHTML = 'x44';
 dateI1 = dateEXP(expDateI1, 2024,(7-1), 1, 'I1');
 
 //! I2
 nameI2.innerHTML = 'Conditioner';
-quantityI2.innerHTML = 'x6';
+quantityI2.innerHTML = 'x4';
 dateI2 = dateEXP(expDateI2, 2024,(6-1), 1, 'I2');
 
 //! J1
@@ -310,9 +310,9 @@ quantityJ1.innerHTML = 'x15';
 dateJ1 = dateEXP(expDateJ1, 2024,(4-1), 1, 'J1');
 
 //! J2
-nameJ2.innerHTML = 'Brush';
-quantityJ2.innerHTML = 'x5';
-// dateJ2 = dateEXP(expDateJ2, 2024,(1-1), 12, '');
+nameJ2.innerHTML = 'Omega';
+quantityJ2.innerHTML = 'x1';
+dateJ2 = dateEXP(expDateJ2, 2025,(6-1), 8, 'J2');
 
 //! K1
 nameK1.innerHTML = 'Pillbox';
