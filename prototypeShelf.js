@@ -221,7 +221,7 @@ dateA1 = dateEXP(expDateA1, 2024, (11-1), 11, 'A1');
 
 //! A2
 nameA2.innerHTML = 'Cafe Latte';
-quantityA2.innerHTML = 'x1';
+quantityA2.innerHTML = 'OOS';
 dateA2 = dateEXP(expDateA2, 2024, (12-1), 31, 'A2');
 
 //! B1
@@ -321,7 +321,7 @@ quantityK1.innerHTML = 'x5';
 
 //! K2
 nameK2.innerHTML = 'Shaker Black';
-quantityK2.innerHTML = 'x9';
+quantityK2.innerHTML = 'x8';
 // dateK2 = dateEXP(expDateK2, 2024,(1-1), 12, '');
 
 //! L1
