@@ -226,7 +226,7 @@ dateA2 = dateEXP(expDateA2, 2024, (12-1), 31, 'A2');
 
 //! B1
 nameB1.innerHTML = 'Cinch Tea';
-quantityB1.innerHTML = 'x2';
+quantityB1.innerHTML = 'x0';
 dateB1 = dateEXP(expDateB1, 2026,(1-1), 12, 'B1');
 
 //! B2
