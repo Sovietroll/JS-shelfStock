@@ -526,75 +526,76 @@
       }
       .pic-A2{
         position: relative;
-        background-image: url(Pictures/cafe.png);
-        background-repeat: no-repeat;
-        background-size:cover;
-        background-position:center;
-      }
-      .pic-B1 {
-        background-image: url(Pictures/cinch_tea-removebg-preview.png);
-        background-repeat: no-repeat;
-        background-size:cover;
-        background-position:center;
-      }
-      .pic-B2 {
         background-image: url(Pictures/coqtrol.png);
         background-repeat: no-repeat;
         background-size:cover;
         background-position:center;
       }
-      .pic-C1{
-        background-image: url(Pictures/oste.png);
-        background-repeat: no-repeat;
-        background-size:cover;
-        background-position:center;
-      } 
-      .pic-C2{
-        background-image: url(Pictures/vita-c.png);
+      .pic-B1 {
+        background-image: url(Pictures/zinc.png);
         background-repeat: no-repeat;
         background-size:cover;
         background-position:center;
       }
-      .pic-d1 {
-        background-image: url(Pictures/alfafa\ s.png);
-        background-repeat: no-repeat;
-        background-size:cover;
-        background-position:center;
-      }
-      .pic-d2{
+      .pic-B2 {
         background-image: url(Pictures/vitE.png);
         background-repeat: no-repeat;
         background-size:cover;
         background-position:center;
       }
+      .pic-C1{
+        background-image: url(Pictures/toner.png);
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-position:center;
+      } 
+       .pic-C2{
+        background-image: url(Pictures/shampoo\ cut\ out.png);
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-position:center;
+      } 
+      .pic-d1 {
+        background-image: url(Pictures/scalp\ treatment.jpeg);
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-position:center;
+      }
+      .pic-d2{
+        background-image: url(Pictures/shaklee-pillbox-removebg-preview.png);
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-position:center;
+      }
       .pic-E1{
-        background-image: url(Pictures/lecithin.png);
+        background-image: url(Pictures/shaker-hitam-new-removebg-preview.png);
         background-repeat: no-repeat;
         background-size:cover;
         background-position:center;
         margin: 1%;
       } 
       .pic-E2{
-        background-image: url(Pictures/esp.png);
+        background-image: url(Pictures/purple-shaker-removebg-preview.png);
         background-repeat: no-repeat;
         background-size:cover;
         background-position:center;
         margin: 1%;
       } 
       .pic-F1{
-        background-image: url(Pictures/soft\ fabric.png);
+        background-image: url(Pictures/shaker_green-removebg-preview.png);
         background-repeat: no-repeat;
         background-size:cover;
         background-position:center;
         margin: 1%;
       } 
       .pic-F2{
-        background-image: url(Pictures/lockdaycream.png);
+        background-image: url(Pictures/conditioner-removebg-preview.png);
         background-repeat: no-repeat;
         background-size:cover;
         background-position:center;
         margin: 1%;
       } 
+      /*
       .pic-G1{
         background-image: url(Pictures/eyetreatment.png);
         background-repeat: no-repeat;
@@ -673,4 +674,4 @@
         background-size:cover;
         background-position:center;
       } 
-
+ */

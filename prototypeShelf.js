@@ -220,119 +220,119 @@ quantityA1.innerHTML = 'x3';
 dateA1 = dateEXP(expDateA1, 2024, (11-1), 11, 'A1');
 
 //! A2
-nameA2.innerHTML = 'Cafe Latte';
-quantityA2.innerHTML = 'OOS';
-dateA2 = dateEXP(expDateA2, 2024, (12-1), 31, 'A2');
+nameA2.innerHTML = 'Coqtrol';
+quantityA2.innerHTML = 'x1';
+dateA2 = dateEXP(expDateA2,  2024,(10-1), 18, 'A2');
 
 //! B1
-nameB1.innerHTML = 'Cinch Tea';
-quantityB1.innerHTML = 'x0';
-dateB1 = dateEXP(expDateB1, 2026,(1-1), 12, 'B1');
+nameB1.innerHTML = 'Zinc';
+quantityB1.innerHTML = 'x1';
+dateB1 = dateEXP(expDateB1, 2026,(5-1), 01, 'B1');
 
 //! B2
-nameB2.innerHTML = 'Coqtrol';
+nameB2.innerHTML = 'Vit-E';
 quantityB2.innerHTML = 'x1';
-dateB2 = dateEXP(expDateB2, 2024,(10-1), 18, 'B2');
+dateB2 = dateEXP(expDateB2,  2025,(5-1), 24, 'B2');
 
 //! C1
-nameC1.innerHTML = 'Ostematrix';
-quantityC1.innerHTML = 'OOS';
-dateC1 = dateEXP(expDateC1, 2025,(3-1), 24, 'C1');
+nameC1.innerHTML = 'Toner';
+quantityC1.innerHTML = 'x7';
+dateC1 = dateEXP(expDateC1,2024,(8-1), 1, 'C1');
 
 //! C2
-nameC2.innerHTML = 'Vita-C';
-quantityC2.innerHTML = 'OOS';
-dateC2 = dateEXP(expDateC2, 2025,(3-1), 15, 'C2');
+nameC2.innerHTML = 'Shampoo';
+quantityC2.innerHTML = 'x35';
+dateC2 = dateEXP(expDateC2, 2024,(7-1), 1,  'C2');
 
 //! D1
-nameD1.innerHTML = 'Alfafa S';
-quantityD1.innerHTML = 'x1';
-dateD1 = dateEXP(expDateD1, 2025,(9-1), 20, 'D1');
+nameD1.innerHTML = 'S.Treatment';
+quantityD1.innerHTML = 'x15';
+dateD1 = dateEXP(expDateD1,  2024,(4-1), 1, 'D1');
 
 //! D2
-nameD2.innerHTML = 'Vit-E';
-quantityD2.innerHTML = 'x1';
-dateD2 = dateEXP(expDateD2, 2025,(5-1), 24, 'D2');
+nameD2.innerHTML = 'Pillbox';
+quantityD2.innerHTML = 'x8';
+// dateD2 = dateEXP(expDateD2, 2025,(5-1), 24, 'D2');
 
 //! E1
-nameE1.innerHTML = 'Lecithin';
-quantityE1.innerHTML = 'OOS';
-dateE1 = dateEXP(expDateE1, 2025,(11-1), 28, 'E1');
+nameE1.innerHTML = 'Shaker Black';
+quantityE1.innerHTML = 'x5';
+// dateE1 = dateEXP(expDateE1, 2025,(11-1), 28, 'E1');
 
 //! E2
-nameE2.innerHTML = 'ESP';
-quantityE2.innerHTML = 'OOS';
-dateE2 = dateEXP(expDateE2, 2025,(2-1), 7, 'E2');
+nameE2.innerHTML = 'Shaker Prpl';
+quantityE2.innerHTML = 'x7';
+// dateE2 = dateEXP(expDateE2, 2025,(2-1), 7, 'E2');
 
 //! F1
-nameF1.innerHTML = 'Soft Fabric';
-quantityF1.innerHTML = 'x12';
-dateF1 = dateEXP(expDateF1, 2024,(5-1), 1, 'F1');
+nameF1.innerHTML = 'Shaker Green';
+quantityF1.innerHTML = 'x4';
+// dateF1 = dateEXP(expDateF1, 2024,(5-1), 1, 'F1');
 
 //! F2
-nameF2.innerHTML = 'Lock Day';
-quantityF2.innerHTML = 'x1';
-dateF2 = dateEXP(expDateF2, 2024,(6-1), 1, 'F2');
+nameF2.innerHTML = 'Conditioner';
+quantityF2.innerHTML = 'x4';
+dateF2 = dateEXP(expDateF2, 2024,(6-1), 1,  'F2');
 
-//! G1
-nameG1.innerHTML = 'Eye treatment';
-quantityG1.innerHTML = 'x1';
-dateG1 = dateEXP(expDateG1, 2024,(5-1), 1, 'G1');
+// //! G1
+// nameG1.innerHTML = 'Eye treatment';
+// quantityG1.innerHTML = 'x1';
+// dateG1 = dateEXP(expDateG1, 2024,(5-1), 1, 'G1');
 
-//! G2
-nameG2.innerHTML = 'N.Cream RICH';
-quantityG2.innerHTML = 'x2';
-dateG2 = dateEXP(expDateG2, 2024,(5-1), 1, 'G2');
+// //! G2
+// nameG2.innerHTML = 'N.Cream RICH';
+// quantityG2.innerHTML = 'x2';
+// dateG2 = dateEXP(expDateG2, 2024,(5-1), 1, 'G2');
 
-//! H1
-nameH1.innerHTML = 'Toner';
-quantityH1.innerHTML = 'x5';
-dateH1 = dateEXP(expDateH1, 2024,(8-1), 1, 'H1');
+// //! H1
+// nameH1.innerHTML = 'Toner';
+// quantityH1.innerHTML = 'x5';
+// dateH1 = dateEXP(expDateH1, 2024,(8-1), 1, 'H1');
 
-//! H2
-nameH2.innerHTML = 'Toner';
-quantityH2.innerHTML = 'x2';
-dateH2 = dateEXP(expDateH2, 2025,(2-1), 1, 'H2');
+// //! H2
+// nameH2.innerHTML = 'Toner';
+// quantityH2.innerHTML = 'x2';
+// dateH2 = dateEXP(expDateH2, 2025,(2-1), 1, 'H2');
 
-//! I1
-nameI1.innerHTML = 'Shampoo';
-quantityI1.innerHTML = 'x44';
-dateI1 = dateEXP(expDateI1, 2024,(7-1), 1, 'I1');
+// //! I1
+// nameI1.innerHTML = 'Shampoo';
+// quantityI1.innerHTML = 'x44';
+// dateI1 = dateEXP(expDateI1, 2024,(7-1), 1, 'I1');
 
-//! I2
-nameI2.innerHTML = 'Conditioner';
-quantityI2.innerHTML = 'x4';
-dateI2 = dateEXP(expDateI2, 2024,(6-1), 1, 'I2');
+// //! I2
+// nameI2.innerHTML = 'Conditioner';
+// quantityI2.innerHTML = 'x4';
+// dateI2 = dateEXP(expDateI2, 2024,(6-1), 1, 'I2');
 
-//! J1
-nameJ1.innerHTML = 'S.Treatment';
-quantityJ1.innerHTML = 'x15';
-dateJ1 = dateEXP(expDateJ1, 2024,(4-1), 1, 'J1');
+// //! J1
+// nameJ1.innerHTML = 'S.Treatment';
+// quantityJ1.innerHTML = 'x15';
+// dateJ1 = dateEXP(expDateJ1, 2024,(4-1), 1, 'J1');
 
-//! J2
-nameJ2.innerHTML = 'Omega';
-quantityJ2.innerHTML = 'x1';
-dateJ2 = dateEXP(expDateJ2, 2025,(6-1), 8, 'J2');
+// //! J2
+// nameJ2.innerHTML = 'Omega';
+// quantityJ2.innerHTML = 'x1';
+// dateJ2 = dateEXP(expDateJ2, 2025,(6-1), 8, 'J2');
 
-//! K1
-nameK1.innerHTML = 'Pillbox';
-quantityK1.innerHTML = 'x5';
-// dateK1 = dateEXP(expDateK1, 2024,(1-1), 12, '');
+// //! K1
+// nameK1.innerHTML = 'Pillbox';
+// quantityK1.innerHTML = 'x5';
+// // dateK1 = dateEXP(expDateK1, 2024,(1-1), 12, '');
 
-//! K2
-nameK2.innerHTML = 'Shaker Black';
-quantityK2.innerHTML = 'x8';
-// dateK2 = dateEXP(expDateK2, 2024,(1-1), 12, '');
+// //! K2
+// nameK2.innerHTML = 'Shaker Black';
+// quantityK2.innerHTML = 'x8';
+// // dateK2 = dateEXP(expDateK2, 2024,(1-1), 12, '');
 
-//! L1
-nameL1.innerHTML = 'Shaker Prpl';
-quantityL1.innerHTML = 'x7';
-// dateL1 = dateEXP(expDateL1, 2024,(1-1), 12, '');
+// //! L1
+// nameL1.innerHTML = 'Shaker Prpl';
+// quantityL1.innerHTML = 'x7';
+// // dateL1 = dateEXP(expDateL1, 2024,(1-1), 12, '');
 
-//! L2
-nameL2.innerHTML = 'Shaker Green';
-quantityL2.innerHTML = 'x4';
-// dateL2 = dateEXP(expDateL2, 2024,(1-1), 12, '');
+// //! L2
+// nameL2.innerHTML = 'Shaker Green';
+// quantityL2.innerHTML = 'x4';
+// // dateL2 = dateEXP(expDateL2, 2024,(1-1), 12, '');
 
 
 allQuantities.forEach((qty,exp) => {
